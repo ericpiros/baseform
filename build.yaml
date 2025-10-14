@@ -99,21 +99,16 @@ include:
     shield: baseform_duo_left_central
     snippet: studio-rpc-usb-uart
     cmake-args: -DZMK_CONFIG=/tmp/zmk-config/config/qwerty-miryoku
-    artifact-name: qwerty_duo_split_left
-
-  # Duo split (right peripheral)
-  - board: nice_nano_v2
-    shield: baseform_any_right_peripheral
-    artifact-name: any_right_peripheral
+    artifact-name: miryoku_qwerty_duo_split_left
 
   # Trio split (central)
   - board: nice_nano_v2
     shield: "baseform_trio_base_central dongle_display"
     snippet: studio-rpc-usb-uart
     cmake-args: -DZMK_CONFIG=/tmp/zmk-config/config/qwerty-miryoku
-    artifact-name: qwerty_trio_split_central
+    artifact-name: miryoku_qwerty_trio_split_central
 
   # Trio split (left peripheral)
   - board: nice_nano_v2
     shield: baseform_trio_left_peripheral
-    artifact-name: qwerty_trio_split_left
+    artifact-name: miryoku_qwerty_trio_split_left
