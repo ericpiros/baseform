@@ -59,9 +59,9 @@
     display-name = "navigation";
     bindings = <
       TRANS_ROW
-      TRANS_FLANK( &none    &none    &none     &none     &none     &kp K_REDO &kp K_PASTE &kp K_COPY &kp K_CUT &kp K_UNDO )
-      TRANS_FLANK( &kp LGUI &kp LALT &kp LCTRL &kp LSHFT &none     &kp CAPS   &kp LEFT    &kp DOWN   &kp UP    &kp RIGHT  )
-      TRANS_FLANK( &none    &none    &none     &none     &none     &kp INS    &kp HOME    &kp PG_DN  &kp PG_UP &kp END    )
+      TRANS_FLANK( &none    &none    &none     &none     &none     &kp K_REDO &kp K_PASTE    &kp K_COPY     &kp K_CUT    &kp K_UNDO )
+      TRANS_FLANK( &kp LGUI &kp LALT &kp LCTRL &kp LSHFT &none     &kp CAPS   &kp LEFT_ARROW &kp DOWN_ARROW &kp UP_ARROW &kp RIGHT_ARROW  )
+      TRANS_FLANK( &none    &none    &none     &none     &none     &kp INS    &kp HOME    &kp PG_DN         &kp PG_UP    &kp END    )
                                      &none     &trans    &none     &kp ENTER  &kp BSPC    &kp DEL
     >;
   };
